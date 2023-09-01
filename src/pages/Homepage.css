@@ -1,0 +1,53 @@
+body{
+    background-color:#F9F9F7 ;
+}
+.hero{
+    justify-content: center;
+    align-items: center; 
+}
+.row{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width:4rem;
+}
+.text-bold{
+    font-size:0.8rem;
+    font-weight: 600;
+    color:#7A6857;
+    margin: 0.7rem 0rem;
+}
+.text-label{
+    font-size:2.8rem;
+    font-weight: 500;
+    color: #ED7535;
+    margin: 0.7rem 0rem;
+}
+.text-hero-regular{
+    font-size:0.8rem;
+    font-weight: 400;
+    color:#7C7C7C;
+    margin: 0.7rem 0rem;
+}
+.social-icons a{
+    color: #ED7535;
+    padding: 0.3rem 0.4rem;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: #7A6857;
+}
+.hero-image{
+    width:38rem; 
+    height: 100vh; 
+}
+
+@media only screen and(max-width:570px){
+    .hero-image{
+        width:20rem;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+}

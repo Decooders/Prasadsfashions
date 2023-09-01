@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/layout/Layout";
+import Layout from "../components/layout/Layout.js";
 import "./Homepage.css";
 import heroimg from "../assets/Heroimage.png";
 import logo from "../assets/Logo.png";
@@ -9,6 +9,8 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa6";
+import small from "../assets/Hero-Small.png";
+import smallbg from "../assets/smallbg.jpg";
 
 const Homepage = () => {
   return (
@@ -25,6 +27,7 @@ const Homepage = () => {
                     <br /> Our New Website is
                   </div>
                   <div className="text-label">Coming Soon</div>
+                  <div className="time">17-Sep-2023</div>
                   <div className="text-hero-regular">
                     Step into our specialized men's boutique, where
                     sophistication and <br />
@@ -60,6 +63,7 @@ const Homepage = () => {
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <img src={heroimg} alt="Cloths" className="hero-image" />
+                <img src={small} alt="man" className="man-image" />
               </div>
             </div>
           </div>

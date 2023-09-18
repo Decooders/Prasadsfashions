@@ -1,0 +1,48 @@
+.Contact-1{
+   background-color: #f7f7f7;
+  
+}
+.cntc-map{
+    background-image: url(../assets/cntimg.png);
+}
+.contact-heading1{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+.contact-text1{
+    font-size: 0.8rem;
+    color:#919191;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contact-heading2{
+    font-size: 2rem;
+    color:#B81F25;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+
+}
+.cnticons{
+    color:#272B6C;
+    font-size: 1.6rem;
+}
+.imgname{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #B81F25;
+}
+.textimage1{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #919191;
+}

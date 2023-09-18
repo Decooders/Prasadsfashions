@@ -1,0 +1,30 @@
+.Policy{
+    background-color: #F7F7F7;
+}
+.Policy-Headingmain{
+    font-size: 2rem;
+    color:#B81F25;
+    font-weight: 500;
+     padding: 1rem;
+}
+.Policy-text{
+    font-size: 0.8rem;
+    color:#919191;
+
+    font-weight: 500;
+    text-align: start;
+}
+.txt-2{
+    font-size: 0.8rem;
+    color:#919191;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    text-align: start;
+}
+.textbold{
+    font-size: 1rem;
+    color: #353535;
+    padding-top: 0.5rem;
+    font-weight: 600;
+    text-align: start;
+}

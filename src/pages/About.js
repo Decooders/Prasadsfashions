@@ -9,16 +9,37 @@ const About = () => {
       <section className="About">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12">
-              <div className="About-Headingmain">About</div>
-              <div className="About-Textmain">
+            <div className="col-lg-12 col-md-12 col-sm-12 abtstrp">
+              <div
+                className="About-Headingmain"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                About
+              </div>
+              <div
+                className="About-Textmain"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 Elevate your style. Embrace your individuality. Experience
                 Prasads Fashions.
               </div>
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
-              <div className="About-Heading">About Prasads Fashions</div>
-              <div className="About-Text">
+              <div
+                className="About-Heading"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
+                About Prasads Fashions
+              </div>
+              <div
+                className="About-Text"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
                 Welcome to Prasads Fashions, where fashion meets elegance and
                 style. We are more than just a clothing brand; we are the
                 embodiment of self-expression through fashion. Our journey began
@@ -27,9 +48,21 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
-              <div className="About-Heading">Our Story</div>
+              <div
+                className="About-Heading"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
+                Our Story
+              </div>
 
-              <div className="About-Text">
+              <div
+                className="About-Text"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
                 Prasads Fashions was founded by Prasads in 2008. Our story is
                 one of ambition, creativity, and a deep love for fashion. What
                 started as a small boutique has grown into a brand that
@@ -37,19 +70,41 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
-              <div className="About-Heading">Our Vision</div>
+              <div
+                className="About-Heading"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
+                Our Vision
+              </div>
 
-              <div className="About-Text">
+              <div
+                className="About-Text"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
                 At Prasads Fashions, our vision is clear: we aim to redefine
                 fashion by offering garments that not only make you look good
                 but feel incredible too. We believe that every piece of clothing
                 should tell a story, reflect personality, and boost confidence.
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div
+              className="col-lg-6 col-md-12 col-sm-12"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
               <img src={Aboutimg} alt="About-image" className="abtimg" />
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12">
+            <div
+              className="col-lg-6 col-md-12 col-sm-12"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
               <div className="About-Heading">Quality Craftsmanship</div>
 
               <div className="About-Text">
@@ -76,7 +131,12 @@ const About = () => {
               </div>
             </div>
 
-            <div className="col-lg-12 col-md-12 col-sm-12">
+            <div
+              className="col-lg-12 col-md-12 col-sm-12"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
               <div className="About-Heading">Join the Our Community</div>
 
               <div className="About-Text">
@@ -86,7 +146,12 @@ const About = () => {
                 Fashions moments, and be a part of our growing family.
               </div>
             </div>
-            <div className="col-lg-12 col-md-12 col-sm-12">
+            <div
+              className="col-lg-12 col-md-12 col-sm-12"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
               <div className="About-Heading">Contact Us</div>
 
               <div className="About-Text">

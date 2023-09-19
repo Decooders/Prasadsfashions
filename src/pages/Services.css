@@ -1,0 +1,43 @@
+.Services1{
+    background-image: url("../assets/srbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.srcimg{
+    background-image: url("../assets//Srvcimg.png");
+    background-repeat: no-repeat;
+    padding: 2.5rem 0;
+   
+}
+.Service-Headingmain{
+    font-size: 2.8rem;
+    color:#fff;
+    font-weight: 600;
+    text-align: start;
+    padding: 0 2rem;
+}
+.Service-Textmain{
+    font-size: 0.8rem;
+    color:#fff;
+    font-weight: 500;
+    text-align: start;
+ 
+}
+.srv1{
+    padding: 1rem 0;
+}
+.srv-icon{
+    color:#B81F25;
+    font-size: 2rem;
+}
+.srv-head{
+    font-size: 1rem;
+    color: #272B6C;
+    font-weight: 600;
+}
+.srv-text{
+    font-size: 0.8rem;
+    color:#919191;
+    padding-top: 0.5rem;
+}

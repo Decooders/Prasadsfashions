@@ -4,13 +4,11 @@ import {
   FaFacebookF,
   FaTwitter,
   FaTelegramPlane,
-  FaPhone,
 } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import FooterLogo from "../../assets/Logo.png";
-import Policy from "./../../pages/Policy";
 
 const Footer = () => {
   return (
@@ -36,8 +34,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/products" className="nav-link">
-                  Products
+                <Link to="/projects" className="nav-link">
+                  Projects
                 </Link>
               </li>
               <li className="nav-item">

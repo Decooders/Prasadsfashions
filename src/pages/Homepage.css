@@ -241,7 +241,10 @@ text-align: start;
 }
 /* TESTIMONIAL */
 .Testimonial{
-    background-color: #fff;
+    background-image: url("../assets/srbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     padding: 2rem 0;
 }
 .Testimonial-heading{

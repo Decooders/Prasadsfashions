@@ -181,7 +181,7 @@ const Homepage = () => {
               <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
                 <div className="About-Text">
                   <div className="About-heading">
-                    About us
+                    ABOUT US
                     <div className="About-Lable">Prasad&#39;s Fashions</div>
                     <div className="About-content">
                       You Can Find All Kinds of Fabric Here
@@ -330,7 +330,7 @@ const Homepage = () => {
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
                 <div className="Products-heading">
-                  <div className="Product-title">Our Products</div>
+                  <div className="Product-title">Our Projects</div>
                   <div className="Procuct-largetext">Some Of Our Projects</div>
                   <div className="Product-description">
                     These are custom-built suits for game-changers. It&#39;s

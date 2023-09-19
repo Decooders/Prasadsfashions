@@ -1,0 +1,42 @@
+.Project1{
+    background-image: url("../assets/srbg.png");
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+   
+ }
+ .prjimg{
+     background-image: url(../assets/prjimg.png);
+     background-repeat: no-repeat;
+     padding: 2.5rem 0;
+ }
+ .prj-Headingmain{
+    font-size: 2.8rem;
+    color:#fff;
+    font-weight: 600;
+    text-align: start;
+    padding: 0 2rem;
+ }
+ .prj-Textmain{
+    font-size: 0.8rem;
+    color:#fff;
+    font-weight: 500;
+    text-align: start;
+   
+ }
+ .prjct{
+    padding: 2rem 0;
+    text-align: start;
+ }
+
+ .Prj-name{
+    color:#B81F25;
+    font-size:1.2rem;
+    font-weight: 600;
+
+ }
+ .prj-descrpt{
+    color:#919191;
+    font-size: 0.8rem;
+    font-weight: 500;
+ }

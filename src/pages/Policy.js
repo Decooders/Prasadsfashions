@@ -8,8 +8,14 @@ const Policy = () => {
       <section className="Policy">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12">
-              <div className="Policy-Headingmain">Privacy Policy</div>
+            <div className="col-lg-12 col-md-12 col-sm-12 prvcystrp">
+              <div
+                className="Policy-Headingmain"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
+                Privacy Policy
+              </div>
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div className="Policy-text">

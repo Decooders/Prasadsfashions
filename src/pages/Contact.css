@@ -1,12 +1,15 @@
 .Contact-1{
-   background-color: #f7f7f7;
+   background-image: url("../assets/srbg.png");
+   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   
 }
 .cntc-map{
     background-image: url(../assets/cntimg.png);
 }
 .contact-heading1{
-    font-size: 2rem;
+    font-size: 2.8rem;
     color:#fff;
     font-weight: 600;
     text-align: center;

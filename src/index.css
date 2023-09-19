@@ -15,24 +15,24 @@
     background-color: transparent;
   }
   .container-fluid{
-    margin: 0 6rem;
-    justify-content: space-between;
+    margin: 0 5rem;
+    justify-content:space-between;
   }
   .nav-link{
     font-weight: 500 ;
     color:#8b8b8b;
-    margin: 0 0.3rem;
+    margin: 0 0.5rem;
   }
   .nav-link:hover{
     border-bottom: 2.5px solid #B81F25;
     color:#B81F25;
-    font-weight: 600;
+    font-weight: 500;
     transition: 0.3s ease-in-out;
   }
   .active{
     border-bottom: 2.5px solid #B81F25;
     color:#B81F25;
-    font-weight: 600;
+    font-weight: 500;
   }
   .navbar-brand{
   text-decoration: none;
@@ -41,7 +41,7 @@
   .navbar-toggler{
     color: #B81F25;
     font-size: 1.3rem;
-    margin-left: -2rem;
+  
   }
   .nav-icons{
     display: flex;
@@ -50,8 +50,11 @@
   }
   .nav-icons a{
     font-size: 1rem;
-    color:#B81F25;
+    color:#919191;
     padding-left: 1.5rem;
+  }
+  .nav-icons a:hover{
+    color:#B81F25;
   }
   /* Page Not Found */
   .pnf{

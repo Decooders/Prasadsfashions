@@ -126,10 +126,10 @@ const Homepage = () => {
                   </div>
                   <h5>Excellent Material</h5>
                   <p className="content-text">
-                    Lorem ipsum dolor sit amet consectetur. Pellentesque in
-                    <br />
-                    mattis iaculis donec nunc viverra nunc <br />
-                    volutpat gravida.
+                    At Prasads Fashions, we believe that the quality of
+                    materials is the foundation upon which exceptional projects
+                    are built. Our materials are selected with the utmost care
+                    and scrutiny.
                   </p>
                 </div>
               </div>
@@ -143,12 +143,12 @@ const Homepage = () => {
                   <div className="longicons">
                     <IoShirtOutline />
                   </div>
+
                   <h5>Quality Product</h5>
                   <p className="content-text">
-                    Lorem ipsum dolor sit amet consectetur. Pellentesque in
-                    <br />
-                    mattis iaculis donec nunc viverra nunc <br />
-                    volutpat gravida.
+                    Your satisfaction is our ultimate goal. We continuously
+                    strive to understand your needs and preferences to deliver
+                    products that resonate with you
                   </p>
                 </div>
               </div>
@@ -164,10 +164,9 @@ const Homepage = () => {
                   </div>
                   <h5>Trusted by Clients</h5>
                   <p className="content-text">
-                    Lorem ipsum dolor sit amet consectetur. Pellentesque in
-                    <br />
-                    mattis iaculis donec nunc viverra nunc <br />
-                    volutpat gravida.
+                    Our client-centric approach means that we prioritize our
+                    clients' needs, actively listen to their feedback, and work
+                    collaboratively to find the best solutions.
                   </p>
                 </div>
               </div>
@@ -175,7 +174,7 @@ const Homepage = () => {
           </div>
         </section>
         {/* About */}
-        <section className="About">
+        <section className="About1">
           <div className="container">
             <div className="row">
               <div
@@ -436,7 +435,7 @@ const Homepage = () => {
                 data-aos-duration="1000"
               >
                 <img src={P2} alt="product-1" className="Productimage w-75" />
-                <p className="P-title">Cotton Fabric</p>
+                <p className="P-title">Wool Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
@@ -445,7 +444,7 @@ const Homepage = () => {
                 data-aos-duration="1500"
               >
                 <img src={P3} alt="product-1" className="Productimage w-75" />
-                <p className="P-title">Cotton Fabric</p>
+                <p className="P-title">Linen Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
@@ -454,7 +453,7 @@ const Homepage = () => {
                 data-aos-duration="2000"
               >
                 <img src={P4} alt="product-1" className="Productimage w-75" />
-                <p className="P-title">Cotton Fabric</p>
+                <p className="P-title">Georgette Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
@@ -463,7 +462,7 @@ const Homepage = () => {
                 data-aos-duration="2500"
               >
                 <img src={P5} alt="product-1" className="Productimage w-75" />
-                <p className="P-title">Cotton Fabric</p>
+                <p className="P-title">Denim Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
@@ -472,7 +471,7 @@ const Homepage = () => {
                 data-aos-duration="3000"
               >
                 <img src={P6} alt="product-1" className="Productimage w-75" />
-                <p className="P-title">Cotton Fabric</p>
+                <p className="P-title">Leather Material</p>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12"></div>
               <div className="col-lg-3 col-md-6 col-sm-12"></div>

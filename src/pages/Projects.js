@@ -61,24 +61,22 @@ const Projects = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-6 col-sm-12 prjct">
-              {/* <img src={P5} alt="product-1" className="Prjct-img" /> */}
               <div
                 className="Prj-name"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
               >
-                Consult With Us The Suitable Material for Your Project
+                Consult With Us The Suitable Material For Your Project
               </div>
               <div
                 className="prj-descrpt"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
               >
-                Our experienced professionals take the time to understand the
-                unique requirements of your project. Whether you're designing
-                clothing, crafting furniture, or working on an artistic
-                masterpiece, we provide tailored material recommendations to
-                suit your vision.
+                Our experienced professionals take time to understand the unique
+                requirements of your project. Whether you're designing clothing,
+                crafting furniture, or working on an artistic masterpiece, we
+                provide tailored material recommendations to suit your vision.
               </div>
             </div>
           </div>

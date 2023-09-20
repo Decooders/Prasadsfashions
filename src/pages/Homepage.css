@@ -13,7 +13,7 @@ section.Hero{
     background: linear-gradient(to top, #D8D8D8,#fff);
 }
 .text-bold{
-    font-size:0.8rem;
+    font-size:0.9rem;
     font-weight: 600;
     color:#B81F25;
     text-align: start;
@@ -37,7 +37,7 @@ section.Hero{
 }
 .scroll-text{
     color:#B81F25;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     text-decoration: line-through;
     padding-top: 5.5rem;
@@ -89,7 +89,7 @@ font-size: 0.7rem;
 font-weight: 400;
 }
 /* About */
-section.About{
+section.About1{
     padding-top: 1rem; 
 }
 .About-Text{
@@ -98,7 +98,7 @@ section.About{
     margin-top: 7rem;   
 }
 .About-heading{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color:#272B6C;
     text-align:start;
     font-weight: 600;
@@ -111,12 +111,12 @@ section.About{
 
 }
 .About-content{
-    font-size: 0.8rem;
-    color: #919191;
+    font-size: 0.9rem;
+    color:#272B6C;
     text-align: start;
 }
 .text-content{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #919191;
     text-align: start;
     padding-top: 0.5rem ;
@@ -128,10 +128,11 @@ section.About{
 .about-btn{
     padding: 0.4rem 3rem;
     color:#fff;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     background-color: #B81F25;
     border-radius: 0.2rem;
     border: #B81F25;
+    margin-bottom: 1rem;
 }
 .about-btn:hover{
     background-color: #272B6C;
@@ -142,7 +143,7 @@ section.About{
     padding:2rem 0;
 }
 .men-text{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #B81F25;
     font-weight: 600;
     text-align: end;
@@ -164,7 +165,7 @@ section.About{
     row-gap: 2rem;
 }
 .men{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #272B6C;
     font-weight: 600;
 }
@@ -184,7 +185,7 @@ section.About{
 }
 .Services-title{
     color:#fff;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -195,17 +196,17 @@ section.About{
 }
 .Services-description{
     color: #919191;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   
 }
 .Services-icon{
     color:#B81F25;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-top: 2rem;
 }
 .icon-text{
     color:#fff;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0 0.5rem;
 }
 /* Products */
@@ -216,7 +217,7 @@ section.Products{
 
 .Product-title{
     color:#272B6C;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -227,7 +228,7 @@ section.Products{
 }
 .Product-description{
     color: #919191;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding-bottom: 1.5rem;
 }
 
@@ -254,7 +255,7 @@ section.Testimonial{
     font-weight: 600;
 }
 .Testimonial-para{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #919191;
     font-weight: 500 ;
 }
@@ -272,7 +273,7 @@ section.Testimonial{
 }
 .Test-designation{
     color:#919191;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 .Stars{
@@ -367,7 +368,7 @@ textarea {
 .contact-text{
     text-align: start;
     color: #919191;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 .contact-btn{
@@ -377,7 +378,7 @@ textarea {
 .btn{
     background-color: #B81F25;
     color: #fff;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 600;
     padding: 0.6rem 9rem;
 }

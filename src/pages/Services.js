@@ -23,7 +23,7 @@ const Services = () => {
                   data-aos-anchor-placement="top-bottom"
                   data-aos-duration="1000"
                 >
-                  Find The Fabric, Enjoy The Process and The Results
+                  Find The Fabric, Enjoy The Process and Shine with The Results
                 </div>
               </div>
             </div>

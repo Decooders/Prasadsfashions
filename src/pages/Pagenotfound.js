@@ -1,6 +1,7 @@
 import React from "react";
 // import Layout from "../components/layout/Layout.js";
 import { Link } from "react-router-dom";
+import "../pages/Pagenotfound.css";
 
 const Pagenotfound = () => {
   return (

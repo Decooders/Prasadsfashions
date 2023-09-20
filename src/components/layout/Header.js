@@ -3,12 +3,7 @@ import HeaderLogo from "../../assets/Logo.png";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
-import {
-  FaTwitter,
-  // FaFacebook,
-  FaLinkedin,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa6";
 
 const Header = () => {
   return (

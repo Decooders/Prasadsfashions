@@ -10,21 +10,46 @@ const Contact = () => {
       <section className="Contact-1">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12 col-sm-12 cntc-map">
-              <div className=" contact-heading1">
+            <div
+              className="col-lg-12 col-md-12 col-sm-12 cntc-map"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
+              <div
+                className=" contact-heading1"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
                 Let’s make something Awesome
                 <br />
                 Together
-                <p className="contact-text1">
+                <p
+                  className="contact-text1"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="1000"
+                >
                   We're here to assist you with any questions or concerns you
                   may have about our stylish and comfortable garments
                 </p>
               </div>
             </div>
-            <div className="col-lg-12 col-md-12 col-sm-12">
+            <div
+              className="col-lg-12 col-md-12 col-sm-12"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1000"
+            >
               <div className=" contact-heading2">
                 Let’s Chat!
-                <p className="contact-text1">
+                <p
+                  className="contact-text1"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-duration="1000"
+                >
                   We would love to learn about your Projects
                 </p>
               </div>

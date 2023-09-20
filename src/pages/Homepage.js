@@ -68,15 +68,15 @@ const Homepage = () => {
   return (
     <>
       <Layout title={"Prasads Fashions"}>
-        <section className="hero">
+        {/* Hero Banner */}
+        <section className="Hero">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-12">
-                <div
-                  className="copy"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
+              <div
+                className="col-lg-6 col-md-6 col-sm-12"
+                data-aos="zoom-in-right"
+              >
+                <div className="copy">
                   <div className="text-bold">Prasad's Fashions</div>
                   <div className="text-label">
                     Individual Men&#39;s <br />
@@ -95,14 +95,19 @@ const Homepage = () => {
               </div>
               <div
                 className="col-lg-6 col-md-6 col-sm-12"
-                data-aos="fade-left"
-                data-aos-duration="1000"
+                data-aos="zoom-in-left"
               >
-                <img src={heroimg} alt="ModalImage" className="hero-image" />
+                <img
+                  src={heroimg}
+                  alt="ModalImage"
+                  className="hero-image w-100"
+                />
               </div>
             </div>
           </div>
         </section>
+
+        {/* lONGStrip Banner */}
         <section className="long-strip">
           <div className="container">
             <div className="row">
@@ -166,27 +171,31 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-
+        {/* About */}
         <section className="About">
           <div className="container">
             <div className="row">
               <div
                 className="col-lg-6 col-md-6 col-sm-12"
-                data-aos="fade-right"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
               >
-                <div className="About-Img">
-                  <img src={About} alt="map" className="Aboutimg" />
-                </div>
+                <img src={About} alt="modal" className="Aboutimg w-100" />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
+              <div
+                className="col-lg-6 col-md-6 col-sm-12"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1500"
+              >
                 <div className="About-Text">
-                  <div className="About-heading">
-                    ABOUT US
-                    <div className="About-Lable">Prasad&#39;s Fashions</div>
-                    <div className="About-content">
-                      You Can Find All Kinds of Fabric Here
-                    </div>
+                  <div className="About-heading">ABOUT US</div>
+                  <div className="About-Lable">Prasad&#39;s Fashions</div>
+                  <div className="About-content">
+                    You Can Find All Kinds of Fabric Here
                   </div>
+
                   <div className="text-content">
                     Step into our specialized men's boutique, where
                     sophistication and style unite to create unforgettable
@@ -204,13 +213,17 @@ const Homepage = () => {
                     have the perfect outfit to match your unique wedding theme.
                   </div>
                   <div className="About-Button">
-                    <button className="about-btn">View More</button>
+                    <a href="/about">
+                      <button className="about-btn">View More</button>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+        {/* Banner */}
         <section className="men-banner">
           <div className="container">
             <div className="row">
@@ -218,26 +231,46 @@ const Homepage = () => {
                 <div className="men-text">for</div>
                 <div className="men-heading">Mens</div>
                 <div className="Men-Cloths">
-                  <div className="col-lg-3 col-md-4 col-sm-12">
+                  <div
+                    className="col-lg-3 col-md-4 col-sm-12"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                  >
                     <img src={Coat} alt="men-cloths" className="cloths" />
                     <p className="men">Coats</p>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12">
+                  <div
+                    className="col-lg-3 col-md-4 col-sm-12"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                  >
                     <img src={Jacket} alt="men-cloths" className="cloths" />
                     <p className="men">Jockets</p>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12">
+                  <div
+                    className="col-lg-3 col-md-4 col-sm-12"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                  >
                     <img src={Pant} alt="men-cloths" className="cloths" />
                     <p className="men">Pants</p>
                   </div>
-                  <div className="col-lg-3 col-md-4 col-sm-12">
+                  <div
+                    className="col-lg-3 col-md-4 col-sm-12"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                  >
                     <img src={Shirt} alt="men-cloths" className="cloths" />
                     <p className="men">Shirts</p>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="col-lg-4 col-md-6 col-sm-12"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
                 <div className="Men-Img">
                   <img src={Men} alt="map" className="Menimg" />
                 </div>
@@ -245,23 +278,40 @@ const Homepage = () => {
             </div>
           </div>
         </section>
-
+        {/* Services */}
         <section className="Services">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
                 <div className="Servicess-heading">
-                  <div className="Services-title">Our Services</div>
-                  <div className="Services-largetext">What We Do?</div>
-                  <div className="Services-description">
+                  <div
+                    className="Services-title"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                  >
+                    Our Services
+                  </div>
+                  <div
+                    className="Services-largetext"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                  >
+                    What We Do?
+                  </div>
+                  <div
+                    className="Services-description"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                  >
                     Our Clients send us bunch of smiles with our service and we
                     love them
                   </div>
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-4 col-sm-6"
-                data-aos="zoom-in"
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
               >
                 <div className="Services-icon">
@@ -270,8 +320,9 @@ const Homepage = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-4 col-sm-6"
-                data-aos="zoom-in"
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1500"
               >
                 <div className="Services-icon">
@@ -280,8 +331,9 @@ const Homepage = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-4 col-sm-6"
-                data-aos="zoom-in"
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="2000"
               >
                 <div className="Services-icon">
@@ -290,8 +342,9 @@ const Homepage = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-4 col-sm-6"
-                data-aos="zoom-in"
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="2500"
               >
                 <div className="Services-icon">
@@ -300,8 +353,9 @@ const Homepage = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-4 col-sm-6"
-                data-aos="zoom-in"
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="3000"
               >
                 <div className="Services-icon">
@@ -310,8 +364,9 @@ const Homepage = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-4 col-sm-6"
-                data-aos="zoom-in"
+                className="col-lg-3 col-md-6 col-sm-6"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="3000"
               >
                 <div className="Services-icon">
@@ -319,87 +374,128 @@ const Homepage = () => {
                   <span className="icon-text">Custom Apparel</span>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-4 col-sm-6"></div>
-              <div className="col-lg-3 col-md-4 col-sm-6"></div>
+              <div className="col-lg-3 col-md-6 col-sm-6"></div>
+              <div className="col-lg-3 col-md-6 col-sm-6"></div>
             </div>
           </div>
         </section>
-
+        {/* Production */}
         <section className="Products">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
                 <div className="Products-heading">
-                  <div className="Product-title">Our Projects</div>
-                  <div className="Procuct-largetext">Some Of Our Projects</div>
-                  <div className="Product-description">
+                  <div
+                    className="Product-title"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="500"
+                  >
+                    Our Projects
+                  </div>
+                  <div
+                    className="Procuct-largetext"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1000"
+                  >
+                    Some Of Our Projects
+                  </div>
+                  <div
+                    className="Product-description"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1500"
+                  >
                     These are custom-built suits for game-changers. It&#39;s
                     slim fit and has accentuated shoulders that give a classic
                     style.
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
-                data-aos="zoom-in-down"
-                data-aos-duration="1000"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="500"
               >
-                <img src={P1} alt="product-1" className="Productimage" />
+                <img src={P1} alt="product-1" className="Productimage w-75" />
                 <p className="P-title">Cotton Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
-                data-aos="zoom-in-down"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000"
+              >
+                <img src={P2} alt="product-1" className="Productimage w-75" />
+                <p className="P-title">Cotton Fabric</p>
+              </div>
+              <div
+                className="col-lg-3 col-md-6 col-sm-12"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1500"
               >
-                <img src={P2} alt="product-1" className="Productimage" />
-                <p className="P-title">Wool Fabric</p>
+                <img src={P3} alt="product-1" className="Productimage w-75" />
+                <p className="P-title">Cotton Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
-                data-aos="zoom-in-down"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="2000"
               >
-                <img src={P3} alt="product-1" className="Productimage" />
-                <p className="P-title">Linen Fabric</p>
+                <img src={P4} alt="product-1" className="Productimage w-75" />
+                <p className="P-title">Cotton Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
-                data-aos="zoom-in-down"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="2500"
               >
-                <img src={P4} alt="product-1" className="Productimage" />
-                <p className="P-title">Georgette Fabric</p>
+                <img src={P5} alt="product-1" className="Productimage w-75" />
+                <p className="P-title">Cotton Fabric</p>
               </div>
               <div
                 className="col-lg-3 col-md-6 col-sm-12"
-                data-aos="zoom-in-down"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
                 data-aos-duration="3000"
               >
-                <img src={P5} alt="product-1" className="Productimage" />
-                <p className="P-title">Denim Fabric</p>
+                <img src={P6} alt="product-1" className="Productimage w-75" />
+                <p className="P-title">Cotton Fabric</p>
               </div>
-              <div
-                className="col-lg-3 col-md-6 col-sm-12"
-                data-aos="zoom-in-down"
-                data-aos-duration="3000"
-              >
-                <img src={P6} alt="product-1" className="Productimage" />
-                <p className="P-title">Leather Material</p>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6"></div>
-              <div className="col-lg-3 col-md-4 col-sm-6"></div>
+              <div className="col-lg-3 col-md-6 col-sm-12"></div>
+              <div className="col-lg-3 col-md-6 col-sm-12"></div>
             </div>
           </div>
         </section>
-
+        {/* Testimonial*/}
         <section className="Testimonial">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
                 <div className="Testimonial-heading">
-                  <div className="Testimonial-title">What Our Client Says</div>
-                  <div className="Testimonial-para">
+                  <div
+                    className="Testimonial-title"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="500"
+                  >
+                    What Our Client Says
+                  </div>
+                  <div
+                    className="Testimonial-para"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-duration="1000"
+                  >
                     Our Clients send us bunch of smiles with our service and we
                     love them
                   </div>
@@ -414,9 +510,64 @@ const Homepage = () => {
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                       <div className="Persons">
-                        <img src={Person} alt="Person-1" className="Peron-1" />
-                        <h5 className="Test-p">Jay Teja</h5>
-                        <h6 className="Test-designation">Software Engg</h6>
+                        <img
+                          src={Person}
+                          alt="Person-1"
+                          className="Person-1"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        />
+                        <div
+                          className="Test-p"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          Jay Teja
+                        </div>
+                        <div
+                          className="Test-designation"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          Software Engg
+                        </div>
+                        <div
+                          className="Stars"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                          <TbStarFilled />
+                        </div>
+                        <div
+                          className="Test-para"
+                          data-aos="fade-up"
+                          data-aos-anchor-placement="top-bottom"
+                          data-aos-duration="1000"
+                        >
+                          Lorem ipsum dolor sit amet consectetur. Arcu sed massa
+                          arcu nunc nunc nunc. Pretium euismod convallis amet in
+                          tristique ipsum augue metus. In pharetra consequat
+                          rhoncus nullam nunc nec. Tristique morbi volutpat
+                          ultricies dictum. Aenean volutp ullamcorper viverra
+                          vitae sed. Pharetra porttitor senectus ante risus
+                          lorem cursus orci. Ut posuere et egestas morbi
+                          pharetra vulputate. Et
+                        </div>
+                      </div>
+                    </div>
+                    <div className="carousel-item">
+                      <div className="Persons">
+                        <img src={Person} alt="Person-1" className="Person-1" />
+                        <div className="Test-p">Jay Teja</div>
+                        <div className="Test-designation">Software Engg</div>
                         <div className="Stars">
                           <TbStarFilled />
                           <TbStarFilled />
@@ -438,33 +589,9 @@ const Homepage = () => {
                     </div>
                     <div className="carousel-item">
                       <div className="Persons">
-                        <img src={Person} alt="Person-1" className="Peron-1" />
-                        <h5 className="Test-p">Jay Teja</h5>
-                        <h6 className="Test-designation">Software Engg</h6>
-                        <div className="Stars">
-                          <TbStarFilled />
-                          <TbStarFilled />
-                          <TbStarFilled />
-                          <TbStarFilled />
-                          <TbStarFilled />
-                        </div>
-                        <div className="Test-para">
-                          Lorem ipsum dolor sit amet consectetur. Arcu sed massa
-                          arcu nunc nunc nunc. Pretium euismod convallis amet in
-                          tristique ipsum augue metus. In pharetra consequat
-                          rhoncus nullam nunc nec. Tristique morbi volutpat
-                          ultricies dictum. Aenean volutp ullamcorper viverra
-                          vitae sed. Pharetra porttitor senectus ante risus
-                          lorem cursus orci. Ut posuere et egestas morbi
-                          pharetra vulputate. Et
-                        </div>
-                      </div>
-                    </div>
-                    <div className="carousel-item">
-                      <div className="Persons">
-                        <img src={Person} alt="Person-1" className="Peron-1" />
-                        <h5 className="Test-p">Jay Teja</h5>
-                        <h6 className="Test-designation">Software Engg</h6>
+                        <img src={Person} alt="Person-1" className="Person-1" />
+                        <div className="Test-p">Jay Teja</div>
+                        <div className="Test-designation">Software Engg</div>
                         <div className="Stars">
                           <TbStarFilled />
                           <TbStarFilled />
@@ -514,13 +641,15 @@ const Homepage = () => {
             </div>
           </div>
         </section>
+
+        {/* Add Banner */}
         <section className="banner">
           <div className="container">
             <div className="row">
               <div
-                className="col-lg-6 col-md-6 col-sm-6"
-                data-aos="zoom-out-up"
-                data-aos-duration="1000"
+                className="col-lg-6 col-md-6 col-sm-12"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
               >
                 <div className="rightside">
                   <img src={Logo} className="Banner-logo" alt="logo" />
@@ -532,41 +661,38 @@ const Homepage = () => {
                   </p>
                 </div>
               </div>
+              <div className="col-lg-1 col-md-6 col-sm-12"></div>
               <div
-                className="col-lg-6 col-md-6 col-sm-6"
-                data-aos="zoom-out-up"
-                data-aos-duration="1000"
+                className="col-lg-5 col-md-6 col-sm-12"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
               >
-                <div className="bannerimage">
-                  <img src={bannerimage} className="ban-img" alt="bannerimg" />
-                </div>
+                <img src={bannerimage} className="ban-img" alt="bannerimg" />
               </div>
             </div>
           </div>
         </section>
-
+        {/* Contacts */}
         <section className="Contacts">
           <div className="container">
             <div className="row">
-              <div
-                className="col-lg-6 col-md-6 col-sm-12"
-                data-aos="zoom-out-right"
-              >
-                <div className="Cantact-map">
-                  <img src={Map} alt="map" className="contactmap" />
+              <div className="col-lg-1 col-md-6 col-sm-12"></div>
+              <div className="col-lg-5 col-md-6 col-sm-12">
+                <div className="Cantact-map" data-aos="zoom-out-right">
+                  <img src={Map} alt="map" className="projectimg2" />
                 </div>
               </div>
+
               <div
-                className="col-lg-6 col-md-6 col-sm-12"
+                className="col-lg-5 col-md-6 col-sm-12 "
                 data-aos="zoom-out-left"
               >
                 <div className="Cantact-form">
                   <div className="contact-heading">
                     Get In Touch
                     <p className="contact-text">
-                      Fill in your details bellow to arrange a call back and
-                      discover more about our innovative <br />
-                      approach to Prasads Fashions
+                      Fill in your details bellow to arrange a call back <br />
+                      and discover more about our innovations.
                     </p>
                   </div>
                   <form ref={form} onSubmit={sendEmail}>
@@ -599,7 +725,7 @@ const Homepage = () => {
                     <div className="contact-btn">
                       <input type="submit" value="Send" className="btn" />
                     </div>
-                    <div className="row">{result ? <result /> : null}</div>
+                    <div className="row">{result ? <Result /> : null}</div>
                   </form>
                 </div>
               </div>

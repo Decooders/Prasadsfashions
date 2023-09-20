@@ -28,14 +28,14 @@ const About = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div
-                className="About-Heading"
+                className="About-Heading1"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
               >
                 About Prasads Fashions
               </div>
               <div
-                className="About-Text"
+                className="About-Text1"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -49,7 +49,7 @@ const About = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div
-                className="About-Heading"
+                className="About-Heading1"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -58,7 +58,7 @@ const About = () => {
               </div>
 
               <div
-                className="About-Text"
+                className="About-Text1"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -71,7 +71,7 @@ const About = () => {
             </div>
             <div className="col-lg-12 col-md-12 col-sm-12">
               <div
-                className="About-Heading"
+                className="About-Heading1"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -80,7 +80,7 @@ const About = () => {
               </div>
 
               <div
-                className="About-Text"
+                className="About-Text1"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
@@ -105,25 +105,25 @@ const About = () => {
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="1000"
             >
-              <div className="About-Heading">Quality Craftsmanship</div>
+              <div className="About-Heading1">Quality Craftsmanship</div>
 
-              <div className="About-Text">
+              <div className="About-Text1">
                 We take immense pride in the quality of our garments. Each piece
                 is crafted with precision and attention to detail. From
                 selecting the finest fabrics to perfecting every stitch, our
                 commitment to quality is unwavering.
               </div>
-              <div className="About-Heading">Sustainable Fashion</div>
+              <div className="About-Heading1">Sustainable Fashion</div>
 
-              <div className="About-Text">
+              <div className="About-Text1">
                 We are committed to making a positive impact on the world.
                 Sustainability is at the heart of what we do. We use
                 eco-friendly materials, practice ethical manufacturing, and
                 continually seek ways to reduce our environmental footprint.
               </div>
-              <div className="About-Heading">Our Collections</div>
+              <div className="About-Heading1">Our Collections</div>
 
-              <div className="About-Text">
+              <div className="About-Text1">
                 Explore our diverse collections that cater to various styles and
                 occasions. From casual wear that's perfect for everyday comfort
                 to exquisite pieces designed for special moments, we have
@@ -137,9 +137,9 @@ const About = () => {
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="1000"
             >
-              <div className="About-Heading">Join the Our Community</div>
+              <div className="About-Heading1">Join the Our Community</div>
 
-              <div className="About-Text">
+              <div className="About-Text1">
                 We believe that fashion is not just about clothing; it's about
                 creating a community of individuals who share a passion for
                 style. Connect with us on social media, share your Prasads
@@ -152,9 +152,9 @@ const About = () => {
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="1000"
             >
-              <div className="About-Heading">Contact Us</div>
+              <div className="About-Heading1">Contact Us</div>
 
-              <div className="About-Text">
+              <div className="About-Text1">
                 We love hearing from you! If you have any questions, feedback,
                 or just want to say hello, don't hesitate to reach out. Our
                 dedicated customer support team is here to assist you. Thank you

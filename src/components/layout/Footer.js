@@ -3,7 +3,7 @@ import {
   FaInstagramSquare,
   FaFacebookF,
   FaTwitter,
-  FaTelegramPlane,
+  FaLinkedin,
 } from "react-icons/fa";
 
 import "./Footer.css";
@@ -57,17 +57,29 @@ const Footer = () => {
           </div>
           <div className="col-lg-12 col-sm-12 ft-3">
             <div className="footer-images">
-              <a href="/" className="footer-icons">
+              <a
+                href="https://www.instagram.com/prasads_fashions"
+                target="_blank"
+                className="footer-icons"
+              >
                 <FaInstagramSquare />
               </a>
               <a href="/" className="footer-icons">
                 <FaFacebookF />
               </a>
-              <a href="/" className="footer-icons">
+              <a
+                href="https://www.twitter.com/prasadsfashions"
+                target="_blank"
+                className="footer-icons"
+              >
                 <FaTwitter />
               </a>
-              <a href="/" className="footer-icons">
-                <FaTelegramPlane />
+              <a
+                href="https://www.linkedin.com/company/prasadsfashions"
+                target="_blank"
+                className="footer-icons"
+              >
+                <FaLinkedin />
               </a>
             </div>
           </div>

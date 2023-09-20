@@ -2,11 +2,6 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Layout from "../components/layout/Layout.js";
 import "./Projects.css";
-import P1 from "../assets/p-1.png";
-import P2 from "../assets/p-2.png";
-import P3 from "../assets/p-3.png";
-import P4 from "../assets/p-4.png";
-import P5 from "../assets/p-5.png";
 import prjimg2 from "../assets/prjimg2.png";
 
 const Result = () => {
@@ -61,86 +56,89 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12 col-md-6 col-sm-12 prjct">
-                  {/* <img src={P5} alt="product-1" className="Prjct-img" /> */}
-                  <div
-                    className="Prj-name"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom"
-                  >
-                    Consult With Us The Suitable Material for Your Project
-                  </div>
-                  <div
-                    className="prj-descrpt"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="top-bottom"
-                  >
-                    Our experienced professionals take the time to understand
-                    the unique requirements of your project. Whether you're
-                    designing clothing, crafting furniture, or working on an
-                    artistic masterpiece, we provide tailored material
-                    recommendations to suit your vision.
-                  </div>
-                </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-6 col-sm-12 prjct">
+              {/* <img src={P5} alt="product-1" className="Prjct-img" /> */}
+              <div
+                className="Prj-name"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
+                Consult With Us The Suitable Material for Your Project
+              </div>
+              <div
+                className="prj-descrpt"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
+                Our experienced professionals take the time to understand the
+                unique requirements of your project. Whether you're designing
+                clothing, crafting furniture, or working on an artistic
+                masterpiece, we provide tailored material recommendations to
+                suit your vision.
               </div>
             </div>
-
-            <div
-              className="col-lg-6 col-md-6 col-sm-12"
-              data-aos="zoom-out-right"
-            >
-              <div className="Cantact-map">
-                <img src={prjimg2} alt="map" className="contactmap" />
-              </div>
-            </div>
-            <div
-              className="col-lg-6 col-md-6 col-sm-12"
-              data-aos="zoom-out-left"
-            >
-              <div className="Cantact-form">
-                <div className="contact-heading">
-                  Let's Discuss About Your Projects
-                  <p className="contact-text">
-                    Fill in your details bellow to arrange a call back and
-                    discover more about our innovative <br />
-                    approach to Prasads Fashions
-                  </p>
+          </div>
+        </div>
+        <div className="imgform">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-1 col-md-6 col-sm-12"></div>
+              <div className="col-lg-5 col-md-6 col-sm-12">
+                <div className="Project-2" data-aos="zoom-out-right">
+                  <img src={prjimg2} alt="map" className="projectimg2" />
                 </div>
-                <form ref={form} onSubmit={sendEmail}>
-                  <div className="mb-3 form-input">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="username"
-                      placeholder="Username"
-                      name="from-name"
-                    />
+              </div>
+
+              <div
+                className="col-lg-5 col-md-6 col-sm-12"
+                data-aos="zoom-out-left"
+              >
+                <div className="Cantact-form">
+                  <div className="contact-heading">
+                    Get In Touch
+                    <p className="contact-text">
+                      Fill in your details bellow to arrange a call back and
+                      discover more about our innovative <br />
+                      approach to Prasads Fashions
+                    </p>
                   </div>
-                  <div className="mb-3 form-input">
-                    <input
-                      type="email"
-                      placeholder="Email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      name="from-email"
-                    />
-                  </div>
-                  <div className="mb-3 form-input">
-                    <textarea
-                      type="text"
-                      name="message"
-                      class="form-control"
-                      placeholder="message"
-                    />
-                  </div>
-                  <div className="contact-btn">
-                    <input type="submit" value="Send" className="btn" />
-                  </div>
-                  <div className="row">{result ? <result /> : null}</div>
-                </form>
+                  <form ref={form} onSubmit={sendEmail}>
+                    <div className="mb-3 form-input">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="username"
+                        placeholder="Username"
+                        name="from-name"
+                      />
+                    </div>
+                    <div className="mb-3 form-input">
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        name="from-email"
+                      />
+                    </div>
+                    <div className="mb-3 form-input">
+                      <textarea
+                        type="text"
+                        name="message"
+                        class="form-control"
+                        placeholder="message"
+                      />
+                    </div>
+                    <div className="contact-btn">
+                      <input type="submit" value="Send" className="btn" />
+                    </div>
+                    <div className="row">{result ? <Result /> : null}</div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>

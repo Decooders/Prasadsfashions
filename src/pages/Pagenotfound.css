@@ -1,0 +1,30 @@
+.pnf{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pnf-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #B81F25;
+  }
+  .pnf-heading{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .pnf-btn{
+    color:#B81F25;
+    border: 1px solid #B81F25;
+    text-decoration: none;
+    padding:0.3rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+  }
+  .pnf-btn:hover{
+    background-color:#B81F25;
+    color:#fff;
+    transition: 0.4sec ease-in-out;
+  }

@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
      background-attachment: fixed;
      background-position: center;
-   
+   overflow-x: hidden;
  }
  .prjimg{
      background-image: url(../assets/prjimg.png);
@@ -25,8 +25,9 @@
    
  }
  .prjct{
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     text-align: start;
+    
  }
 
  .Prj-name{
@@ -39,4 +40,12 @@
     color:#919191;
     font-size: 0.8rem;
     font-weight: 500;
+    padding-top: 1rem;
  }
+
+.projectimg2{
+    width: 21rem;
+    align-items: center;
+    padding: 1rem 0;
+
+}

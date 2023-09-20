@@ -25,7 +25,7 @@
     text-align: start;
     padding: 0 2rem;
 }
-.About-Heading{
+.About-Heading1{
     font-size: 1.3rem;
     color: #272b6c;
     font-weight: 500;
@@ -37,7 +37,7 @@
     width: 21rem;
     border-radius: 1rem;
 }
-.About-Text{
+.About-Text1{
     font-size: 0.9rem;
     color:#919191;
     font-weight: 400;

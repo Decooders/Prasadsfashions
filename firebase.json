@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "prasadsfashions1",
     "public": "build",
     "ignore": [
       "firebase.json",

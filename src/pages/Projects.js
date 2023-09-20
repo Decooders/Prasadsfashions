@@ -99,7 +99,7 @@ const Projects = () => {
               >
                 <div className="Cantact-form">
                   <div className="contact-heading">
-                    Get In Touch
+                    Let's Talk
                     <p className="contact-text">
                       Fill in your details bellow to arrange a call back and
                       discover more about our innovative <br />

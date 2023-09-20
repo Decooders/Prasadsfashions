@@ -16,10 +16,10 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-sm-12 ft-1">
-            {/* <a className="navbar-brand" href="/"> */}
-            <img src={FooterLogo} className="footer-logo" alt="footerlogo" />
+            <a className="navbar-brand" href="/">
+              <img src={FooterLogo} className="footer-logo" alt="footerlogo" />
+            </a>
             <h5>PRASAD'S FASHIONS</h5>
-            {/* </a> */}
           </div>
           <div className="col-lg-12 col-sm-12 ft-2">
             <ul className="footer-nav">
@@ -64,7 +64,10 @@ const Footer = () => {
               >
                 <FaInstagramSquare />
               </a>
-              <a href="/" className="footer-icons">
+              <a
+                href="https://www.facebook.com/PrasadsFashions?mibextid=b06tZ0"
+                className="footer-icons"
+              >
                 <FaFacebookF />
               </a>
               <a

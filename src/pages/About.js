@@ -97,7 +97,7 @@ const About = () => {
               data-aos-anchor-placement="top-bottom"
               data-aos-duration="1000"
             >
-              <img src={Aboutimg} alt="About-image" className="abtimg" />
+              <img src={Aboutimg} alt="About-image" className="abt-img" />
             </div>
             <div
               className="col-lg-6 col-md-12 col-sm-12"

@@ -1,6 +1,7 @@
 .footer{
     background-color: #fff;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    bottom: 0;
     /* margin-top: 1rem; */
 }
 .container{
@@ -47,7 +48,7 @@
     color:#B81F25;
 }
 .registration{
-   margin: 0.6rem 0rem;
+   margin: 1rem 0;
    background-color: #B81F25;
    max-width: 100%;
 }

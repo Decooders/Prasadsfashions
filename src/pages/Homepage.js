@@ -27,13 +27,16 @@ import P4 from "../assets/p-4.png";
 import P5 from "../assets/p-5.png";
 import P6 from "../assets/p-6.png";
 import Map from "../assets/map.png";
-import About from "../assets/About.png";
+// import About from "../assets/About.png";
+import About from "../assets/About2.png";
 import Men from "../assets/men.png";
 import Coat from "../assets/coat.png";
 import Jacket from "../assets/jacket.png";
 import Pant from "../assets/pants.png";
 import Shirt from "../assets/shirts.png";
 import Person from "../assets/test-1.png";
+import Person1 from "../assets/test-2.png";
+import Person2 from "../assets/test-3.png";
 
 const Result = () => {
   return (
@@ -190,7 +193,7 @@ const Homepage = () => {
                 data-aos-duration="1500"
               >
                 <div className="About-Text">
-                  <div className="About-heading">ABOUT US</div>
+                  <div className="About-heading">ABOUT</div>
                   <div className="About-Lable">Prasad&#39;s Fashions</div>
                   <div className="About-content">
                     You Can Find All Kinds of Fabric Here
@@ -245,7 +248,7 @@ const Homepage = () => {
                     data-aos-anchor-placement="top-bottom"
                   >
                     <img src={Jacket} alt="men-cloths" className="cloths" />
-                    <p className="men">Jockets</p>
+                    <p className="men">Jackets</p>
                   </div>
                   <div
                     className="col-lg-3 col-md-4 col-sm-12"
@@ -524,7 +527,7 @@ const Homepage = () => {
                           data-aos-anchor-placement="top-bottom"
                           data-aos-duration="1000"
                         >
-                          Jay Teja
+                          Dhruv Jahagirdar
                         </div>
                         <div
                           className="Test-designation"
@@ -552,22 +555,23 @@ const Homepage = () => {
                           data-aos-anchor-placement="top-bottom"
                           data-aos-duration="1000"
                         >
-                          Lorem ipsum dolor sit amet consectetur. Arcu sed massa
-                          arcu nunc nunc nunc. Pretium euismod convallis amet in
-                          tristique ipsum augue metus. In pharetra consequat
-                          rhoncus nullam nunc nec. Tristique morbi volutpat
-                          ultricies dictum. Aenean volutp ullamcorper viverra
-                          vitae sed. Pharetra porttitor senectus ante risus
-                          lorem cursus orci. Ut posuere et egestas morbi
-                          pharetra vulputate. Et
+                          I'm a regular customer of Prasad Fashions since 5-6
+                          years. Mr Prasad is a very nice person, calm and cool.
+                          Many big branded clothes are available in his shop and
+                          he has his own stitching unit where I get stitched my
+                          pants and shirts and rates are also very reasonable.
                         </div>
                       </div>
                     </div>
                     <div className="carousel-item">
                       <div className="Persons">
-                        <img src={Person} alt="Person-1" className="Person-1" />
-                        <div className="Test-p">Jay Teja</div>
-                        <div className="Test-designation">Software Engg</div>
+                        <img
+                          src={Person1}
+                          alt="Person-1"
+                          className="Person-1"
+                        />
+                        <div className="Test-p">Sushma Thakur</div>
+                        <div className="Test-designation">Student</div>
                         <div className="Stars">
                           <TbStarFilled />
                           <TbStarFilled />
@@ -576,38 +580,35 @@ const Homepage = () => {
                           <TbStarFilled />
                         </div>
                         <div className="Test-para">
-                          Lorem ipsum dolor sit amet consectetur. Arcu sed massa
-                          arcu nunc nunc nunc. Pretium euismod convallis amet in
-                          tristique ipsum augue metus. In pharetra consequat
-                          rhoncus nullam nunc nec. Tristique morbi volutpat
-                          ultricies dictum. Aenean volutp ullamcorper viverra
-                          vitae sed. Pharetra porttitor senectus ante risus
-                          lorem cursus orci. Ut posuere et egestas morbi
-                          pharetra vulputate. Et
+                          I've have been using his services for over 15+ yrs now
+                          and I must say he has maintained his finesse,
+                          professionalism and his "magic touch" over the years.
+                          Prasad has improved over time and always stays
+                          up-to-date with the latest fashion trends.
                         </div>
                       </div>
                     </div>
                     <div className="carousel-item">
                       <div className="Persons">
-                        <img src={Person} alt="Person-1" className="Person-1" />
-                        <div className="Test-p">Jay Teja</div>
-                        <div className="Test-designation">Software Engg</div>
+                        <img
+                          src={Person2}
+                          alt="Person-1"
+                          className="Person-1"
+                        />
+                        <div className="Test-p">Silas Jude</div>
+                        <div className="Test-designation">Business</div>
                         <div className="Stars">
-                          <TbStarFilled />
                           <TbStarFilled />
                           <TbStarFilled />
                           <TbStarFilled />
                           <TbStarFilled />
                         </div>
                         <div className="Test-para">
-                          Lorem ipsum dolor sit amet consectetur. Arcu sed massa
-                          arcu nunc nunc nunc. Pretium euismod convallis amet in
-                          tristique ipsum augue metus. In pharetra consequat
-                          rhoncus nullam nunc nec. Tristique morbi volutpat
-                          ultricies dictum. Aenean volutp ullamcorper viverra
-                          vitae sed. Pharetra porttitor senectus ante risus
-                          lorem cursus orci. Ut posuere et egestas morbi
-                          pharetra vulputate. Et
+                          Prasad has been my tailor for the past 25 years..One
+                          of the best tailors in the city.. Highly
+                          proficient..uses good quality material....Sincere and
+                          hard working..May GOD Bless his hard work and take him
+                          to greater heights.. All the Best Prasad!!!
                         </div>
                       </div>
                     </div>
@@ -661,9 +662,9 @@ const Homepage = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-1 col-md-6 col-sm-12"></div>
+
               <div
-                className="col-lg-5 col-md-6 col-sm-12"
+                className="col-lg-6 col-md-6 col-sm-12"
                 data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom"
               >
@@ -676,15 +677,14 @@ const Homepage = () => {
         <section className="Contacts">
           <div className="container">
             <div className="row">
-              <div className="col-lg-1 col-md-6 col-sm-12"></div>
-              <div className="col-lg-5 col-md-6 col-sm-12">
+              <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="Cantact-map" data-aos="zoom-out-right">
                   <img src={Map} alt="map" className="projectimg2" />
                 </div>
               </div>
 
               <div
-                className="col-lg-5 col-md-6 col-sm-12 "
+                className="col-lg-6 col-md-6 col-sm-12 "
                 data-aos="zoom-out-left"
               >
                 <div className="Cantact-form">

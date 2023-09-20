@@ -10,7 +10,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src={HeaderLogo} alt="logo-header" className="header-logo" />
           </a>
           <button

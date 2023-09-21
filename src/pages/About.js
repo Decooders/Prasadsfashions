@@ -63,8 +63,8 @@ const About = () => {
                 data-aos-anchor-placement="top-bottom"
                 data-aos-duration="1000"
               >
-                Prasads Fashions was founded by Prasads in 2008. Our story is
-                one of ambition, creativity, and a deep love for fashion. What
+                Prasads Fashions was founded by Prasad in 2008. Our story is one
+                of ambition, creativity, and a deep love for fashion. Which
                 started as a small boutique has grown into a brand that
                 resonates with fashion enthusiasts worldwide.
               </div>

@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "prasadsfashions1",
     "public": "build",
+    "site": "prasadsfashions9",
     "ignore": [
       "firebase.json",
       "**/.*",
